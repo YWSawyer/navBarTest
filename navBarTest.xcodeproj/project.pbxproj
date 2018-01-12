@@ -15,6 +15,8 @@
 		18C3282620070C5800A20761 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C3282520070C5800A20761 /* main.m */; };
 		18C3283020070C5800A20761 /* navBarTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C3282F20070C5800A20761 /* navBarTestTests.m */; };
 		18C3283B20070C5800A20761 /* navBarTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C3283A20070C5800A20761 /* navBarTestUITests.m */; };
+		18C3284A20070CE200A20761 /* UINavigationBar+Awesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C3284920070CE200A20761 /* UINavigationBar+Awesome.m */; };
+		18C3284D20070D9500A20761 /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C3284C20070D9500A20761 /* BViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		18C3283620070C5800A20761 /* navBarTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = navBarTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C3283A20070C5800A20761 /* navBarTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = navBarTestUITests.m; sourceTree = "<group>"; };
 		18C3283C20070C5800A20761 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C3284820070CE200A20761 /* UINavigationBar+Awesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Awesome.h"; sourceTree = "<group>"; };
+		18C3284920070CE200A20761 /* UINavigationBar+Awesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Awesome.m"; sourceTree = "<group>"; };
+		18C3284B20070D9500A20761 /* BViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
+		18C3284C20070D9500A20761 /* BViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,10 @@
 		18C3281520070C5800A20761 /* navBarTest */ = {
 			isa = PBXGroup;
 			children = (
+				18C3284B20070D9500A20761 /* BViewController.h */,
+				18C3284C20070D9500A20761 /* BViewController.m */,
+				18C3284820070CE200A20761 /* UINavigationBar+Awesome.h */,
+				18C3284920070CE200A20761 /* UINavigationBar+Awesome.m */,
 				18C3281620070C5800A20761 /* AppDelegate.h */,
 				18C3281720070C5800A20761 /* AppDelegate.m */,
 				18C3281920070C5800A20761 /* ViewController.h */,
@@ -268,6 +278,8 @@
 				18C3281B20070C5800A20761 /* ViewController.m in Sources */,
 				18C3282620070C5800A20761 /* main.m in Sources */,
 				18C3281820070C5800A20761 /* AppDelegate.m in Sources */,
+				18C3284D20070D9500A20761 /* BViewController.m in Sources */,
+				18C3284A20070CE200A20761 /* UINavigationBar+Awesome.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
